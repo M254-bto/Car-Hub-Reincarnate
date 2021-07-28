@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.page1{
+    height: 95vh;
+    width: 100vw;
+    background-image: url(../images/levante_4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+        .info-tab{
+            height:95vh;
+            width: 60%;
+            right: 0;
+            position:absolute;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+            .heading{
+                position: absolute;
+                width: 500px;
+                height: auto;
+                right: 20vw;
+                top:  200px;
+                color:rgb(255, 255, 255);
+            }
+
+            .car-hub{
+                width: auto;
+                height: auto;
+                font-size: 2em;
+            }
+
+            .nav{
+                font-family: Oswald;
+                display: flex;
+                flex-direction: row;
+                color:rgb(236, 248, 248);
+                background: transparent;
+                margin-right: -10vw;
+                position: absolute;
+                top: 50px;
+                right: 3px;
+              }
+              
+              nav li{
+                list-style-type: none;
+                padding: 0 40px 0 40px ;
+                cursor:pointer;
+                
+              }
+
+              nav li:hover{
+                  border-bottom:4px solid white ;
+                  
+                  
+              }
+
+        .brand{
+            width: 500px;
+            height: auto;
+            position: absolute;
+            top: 10vh;
+            font-size: 2rem;
+            font-weight: 8px;
+            color: rgb(4, 9, 39);
+            font-family:Oswald;
+        }
+
+        .exec-title{
+            font-size: 3rem;
+        }
+        
+    
