@@ -10,7 +10,7 @@
 .page1{
     height: 95vh;
     width: 100vw;
-    background-image: url(../images/levante_4.jpg);
+    background-image: url(../images/mazzz.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -21,7 +21,7 @@
             width: 60%;
             right: 0;
             position:absolute;
-            background-color: rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 1, 37, 0.5);
         }
 
             .heading{
@@ -37,13 +37,15 @@
                 width: auto;
                 height: auto;
                 font-size: 2em;
+                color:rgb(0, 248, 215);
+
             }
 
             .nav{
                 font-family: Oswald;
                 display: flex;
                 flex-direction: row;
-                color:rgb(236, 248, 248);
+                color:rgb(248, 132, 0);
                 background: transparent;
                 margin-right: -10vw;
                 position: absolute;
@@ -58,25 +60,103 @@
                 
               }
 
-              nav li:hover{
-                  border-bottom:4px solid white ;
-                  
+              nav li:hover{                
+                color:rgb(0, 248, 215);
                   
               }
 
         .brand{
-            width: 500px;
-            height: auto;
-            position: absolute;
-            top: 10vh;
+            color:rgb(248, 132, 0);
             font-size: 2rem;
-            font-weight: 8px;
-            color: rgb(4, 9, 39);
             font-family:Oswald;
         }
-
-        .exec-title{
-            font-size: 3rem;
+        h2{
+            font-size: 40px;
+            color:rgb(248, 132, 0);
         }
+
         
+        
+        
+.services{
+    width: 100%;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
     
+}
+
+
+
+img{
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+
+
+.image{
+    height: 300px;
+    padding:  0px;
+    margin:0;
+    
+}
+
+.about{
+    height: 500px;
+    width: 100%;
+    display:grid;
+    grid-template-columns: 40% 60%;
+}
+
+
+
+.tag-1{
+    background-color:orangered;
+}
+
+
+
+.div-1{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    
+}
+
+.div-2{
+    background-image: url(../images/back5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.footer{
+    height: 500px;
+    width: 100%;
+    background-color:rgb(1, 1, 14)
+}
+
+
+hr{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px ;
+
+}
+
+
+.middle-hover{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image:hover img {
+    opacity: 0.3;
+  }
+  
+  
