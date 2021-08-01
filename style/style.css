@@ -1,0 +1,25 @@
+.section{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sec-1{
+    background-image:url(../cars/Land\ cruiser\ Prado.jpg);
+}
+
+.sec-2{
+    background-image:url(../cars/Land\ cruiser\ V8.jpg);
+}
+
+.sec-3{
+    background-image:url(../cars/Range\ rover\ sport.jpg);
+}
+
+.sec-4{
+    background-image:url(../cars/Discovery\ 4.jpg);
+}
+
+.sec-5{
+    background-image:url(../cars/Range\ rover\ vogue.jpg);
+}
