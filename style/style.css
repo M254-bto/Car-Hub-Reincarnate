@@ -1,25 +1,49 @@
-.section{
+span{
+    background-color: red !important;
+}
+.slide{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .sec-1{
-    background-image:url(../cars/Land\ cruiser\ Prado.jpg);
+    background-image:url(../cars/Prado\ J120.jpg);
 }
 
 .sec-2{
-    background-image:url(../cars/Land\ cruiser\ V8.jpg);
+    background-image:url(../cars/j150.jpg);
 }
 
 .sec-3{
-    background-image:url(../cars/Range\ rover\ sport.jpg);
+    background-image:url(../cars/Prado\ J150-2.jpg);
 }
 
 .sec-4{
-    background-image:url(../cars/Discovery\ 4.jpg);
+    background-image:url(../cars/Range\ rover\ vogue.jpg);
 }
 
 .sec-5{
-    background-image:url(../cars/Range\ rover\ vogue.jpg);
+    background-image:url(../cars/Range\ roversport\ -2.jpg);
+}
+
+.sec-6{
+    background-image:url(../cars/Discovery\ 3.jpg);
+}
+
+.sec-7{
+    background-image:url(../cars/Discovery\ 4.jpg);
+}
+
+.sec-8{
+    background-image:url(../cars/V8.jpg);
+}
+
+.sec-9{
+    background-image:url(../cars/land\ cruiser\ facelift.jpg);
+}
+
+.fp-controlArrow{
+    margin: top 90vh !important;
+    color: brown;
 }
