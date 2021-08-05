@@ -14,8 +14,9 @@
 .page1{
     height: 100vh;
     width: 100vw;
-    background-image: url(../cars/Range\ roversport\ -2.jpg);
+    background-image: url(../images/in-limo.jpg);
     background-size:cover;
+    background-color: black;
 }
 
     .nav{
@@ -40,9 +41,9 @@
 
     .nav-item:hover{
         border-bottom: 0;
-        border-right: cornsilk 1px solid;
-        border-top: cornsilk 1px solid;
-        border-left: cornsilk 1px solid;
+        border-right: cornsilk .5px solid;
+        border-top: cornsilk .5px solid;
+        border-left: cornsilk .5px solid;
         transition: ease 2000ms;
 
     }
@@ -141,15 +142,17 @@ img{
 
 
 .div-1{
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/full\ fleet.jpg);
+    background-position: center;
     background-size: cover;
     
 }
 
 .div-2{
-    background-image: url(../images/back5.jpg);
+    
+    background-image: url(../images/fleet.jpg);
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .footer{
