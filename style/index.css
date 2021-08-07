@@ -13,10 +13,8 @@
 
 .page1{
     height: 100vh;
-    width: 100vw;
-    background-image: url(../images/in-limo.jpg);
-    background-size:cover;
-    background-color: black;
+    background-image: url(../images/new.jpg);
+    width: 100vw;    background-size:cover;
 }
 
     .nav{
@@ -58,8 +56,7 @@
         width: 60%;
         height: 100%;
         left: 0;
-        background-color:rgba(0, 0, 0, 0.7);
-        position: absolute;
+         position: absolute;
 
     }
     .brand{
@@ -104,6 +101,7 @@ img{
     width: 100%;
     opacity: 1;
     transition: .5s ease;
+    object-fit: cover;
 }
 
 
@@ -150,9 +148,8 @@ img{
 
 .div-2{
     
-    background-image: url(../images/fleet.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url(../images/excuisite.jpg);
+    background-size: contain;
 }
 
 .footer{
